@@ -26,7 +26,6 @@ public class FeedbackRubricQuestionDetailsTest extends BaseTestCase {
     @Test
     public void testValidateQuestionDetails_invalidWeightListSize_errorReturned() {
         FeedbackRubricQuestionDetails rubricDetails = new FeedbackRubricQuestionDetails();
-        rubricDetails.setNumOfRubricChoices(2);
         rubricDetails.setNumOfRubricSubQuestions(2);
         rubricDetails.setRubricDescriptions(Arrays.asList(Arrays.asList("", ""), Arrays.asList("", "")));
         rubricDetails.setHasAssignedWeights(true);

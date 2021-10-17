@@ -192,7 +192,6 @@
         "distributePointsFor": "None",
         "pointsPerOption": true,
         "questionText": "How much did you contribute to this area? Give points accordingly.",
-        "numOfConstSumOptions": 3,
         "questionType": "CONSTSUM_OPTIONS",
         "points": 20,
         "constSumOptions": [
